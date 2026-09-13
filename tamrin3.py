@@ -20,9 +20,9 @@ students_list = [
         "name": "reza",
         "grades": [17, 16, 18.5, 19]
     }
-]
+] 
 
 print("moadel daneshjoyan")
 for student in students_list:
     gpa = calculate_student_gpa(student["grades"])
-    print(f"{student['name']} (student_id : {student['student_id']}): moadel = {gpa:.2f}")
+    print(f"(name:{student['name']}) (student_id : {student['student_id']}): moadel = {gpa:.2f}") 
